@@ -1,4 +1,4 @@
-## Welcome to Connor Blauch's GitHub Page
+## Welcome to Connor Blauch's CS 499 Capstone Portfolio
 
 ## Introduction
 This is my final year in the computer science program. I am currently focusing on Cyber Security and I am working
