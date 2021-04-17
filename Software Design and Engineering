@@ -1,0 +1,116 @@
+import discord
+import os
+import requests
+import json
+from replit import db
+
+
+client = discord.Client()
+
+help = ["help", "TarkovBotHelp"]
+
+starter_statement = [
+ "Welcome To TarkovBot"
+]
+
+if "responding" not in db.keys():
+  db["responding"] = True
+
+def get_ammo():
+  response = requests.get("https://odealo.com/articles/escape-from-tarkov-ammo-chart")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_m4():
+  response = requests.get("https://www.caffeinatedgamer.com/the-best-m4-build-in-escape-from-tarkov/")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_akm():
+  response = requests.get("https://i.imgur.com/Go7zM2U.jpg")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_m1a():
+  response = requests.get("https://i.redd.it/oeuec3oa0ox01.png")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_asval_vss():
+  response = requests.get("https://imgur.com/a02900w")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_sa58():
+  response = requests.get("https://imgur.com/a/YFMuy0A")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+def get_RareItems():
+  response = requests.get("https://tarkov-market.com//")
+  json_data = json.loads(response.text)
+  quote = json_data[0]["q"] + " -" + json_data[0]["a"]
+  return(quote)
+
+
+@client.event
+async def on_ready():
+  print("We have logged in as {0.user}".format(client))
+
+@client.event
+async def on_message(message):
+  if message.author == client.user:
+    return
+
+  msg = message.content
+
+  if msg.startswith("$ammo"):
+    quote = get_ammo()
+    await message.channel.send(quote)
+
+  if msg.startswith("$m4"):
+    quote = get_m4()
+    await message.channel.send(quote)
+
+  if msg.startswith("$akm"):
+    quote = get_akm()
+    await message.channel.send(quote)
+
+  if msg.startswith("$m1a"):
+    quote = get_m1a()
+    await message.channel.send(quote)
+
+  if msg.startswith("$asval"):
+    quote = get_asval_vss()
+    await message.channel.send(quote)
+  
+  if msg.startswith("$sa58"):
+    quote = get_sa58()
+    await message.channel.send(quote)
+
+  if msg.startswith("$RareItems"):
+    quote = get_RareItems()
+    await message.channel.send(quote)
+
+  if any(word in msg for word in help):
+    print("Welcome to the TarkovBot. Type in $ammo, $m4, $akm, $ m1a, $asval, $sa58, $RareItems")
+   
+  if msg.startswith("$responding"):
+    value = msg.split("$responding ",1)[1]
+
+    if value.lower() == "true":
+      db["responding"] = True
+      await message.channel.send("Responding is on.")
+    else:
+      db["responding"] = False
+      await message.channel.send("Responding is off.")
+
+     
+
+client.run(os.getenv("TOKEN"))
