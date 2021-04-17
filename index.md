@@ -10,8 +10,8 @@ out on going to college in person. But with how things have turned out the last 
 ## Reflection
 
 ## Links to Projects
-[Software_Design_and_Engineering](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Software%20Design%20and%20Engineering)
-[Data_Structures_and_Algorithms](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Algorithms%20and%20Data%20Structure)
+[Software_Design_and_Engineering](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Software%20Design%20and%20Engineering)/n
+[Data_Structures_and_Algorithms](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Algorithms%20and%20Data%20Structure)/n
 [Databases](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Databases)
 
 ## Links to Reflection
