@@ -6,8 +6,11 @@ in the field right now. I have honestly enjoyed my time taking these online clas
 out on going to college in person. But with how things have turned out the last year or so. I am pretty happy with my decision now.
 
 ## Summary
+When I first started this class I was pretty nervous because I felt like I was going to struggle with some of the aspects because its
+been a while since I ahve dont some of the concepts. But after going through I was surpised to realize how much I still rememeber what 
+I need to do.
 
-## Reflection
+## Review
 
 ## Links to Projects
 [Software_Design_and_Engineering](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Software%20Design%20and%20Engineering)<br/>
