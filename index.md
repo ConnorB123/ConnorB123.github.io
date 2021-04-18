@@ -30,7 +30,20 @@ allowfullscreen></iframe>
 [Databases](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Databases)<br/>
 
 ## Self-Assessment 
-
+Overall, I would like to think I have a good understanding of Computer Science and what is expected of me from working through each aspect of it. 
+I feel like completing this project did a couple things for me. At first it was the perfect way to go back through all my old work and remember how I did everything. 
+This helped greatly because it allowed for me to feel more confident with the final product. After I am getting through all my old stuff, 
+I feel like this project really allowed for me to express what I have learned throughout my course because it allowed for the use of a 
+bunch of different technique and source of technology to be used. One big thing is using GitHub, I have used this program a bunch in the 
+past for other work outside of school. But my first really run in with a program like this was Bitbucket for a class. After that 
+I was easily able to understand GitHub and how it worked.  I think for me though t the hardest thing is commenting each commitment I make. 
+Having a portfolio has made me also realize how important it is to keep one up to date. If you have a resume this can also show people who run the 
+company that you know what you are doing. The targeted sections for this capstone turned out to be a lot of fun. The fact that I got to create my 
+own type of software was a lot of fun. Then working through data structures and databases brought up a bunch of questions I had from previous 
+classes and allowed for me to leave this class feel even more comfortable. This portfolio shows a wide variety of my skills because it has a 
+bunch of different aspects to it. Like talked about previous it shows that I understand how to use GitHub and what to do with it. Also, 
+it shows just a few areas in computer science that I am comfortable with but they are opposites that it allows for a good luck into what 
+I have completed throughout my time in college. 
 
 
 
