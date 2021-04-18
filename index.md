@@ -21,13 +21,14 @@ allowfullscreen></iframe>
 [Software_Design_and_Engineering](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Software%20Design%20and%20Engineering)<br/>
 [Data_Structures_and_Algorithms](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Algorithms%20and%20Data%20Structure)<br/>
 [Databases](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Databases)
+<br/>[auctionbid](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/auctionbid.py.py)<br/>
+  [script](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/script.py)
 
 ## Links to Reflection
 [Software_Design_and_Engineering](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/enhancment%201.docx)<br/>
 [Data_Structures_and_Algorithms](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/enhancement%202.docx)<br/>
 [Databases](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/Databases)<br/>
-  [auctionbid](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/auctionbid.py.py)<br/>
-  [script](https://github.com/ConnorB123/ConnorB123.github.io/blob/main/script.py)
+
 
 
 
